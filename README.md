@@ -35,9 +35,11 @@ This portfolio includes:
 ├── resume.html
 ├── projects.html
 ├── contact.html
-├── style.css
-├── resume.css
-├── projects.css
+├── styles/
+│   ├── style.css
+│   ├── resume.css
+│   ├── projects.css
 ├── script.js
 ├── images/
-└── README.md
+│   └── (all images and logos)
+├── README.md
