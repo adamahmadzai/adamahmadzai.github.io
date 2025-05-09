@@ -237,7 +237,10 @@
     </section>
 
     <section class="skills" id="resume">
-      <h2 class="heading2">Technical <span>Skills</span></h2>
+      <h2 class="heading2">Technical <span>Skills</span> </h2> <br> <small>
+        <i class="bx bx-mouse-alt"></i> Click to learn more </small>
+      </small>
+       
       <div class="skills-container">
         <div
           class="service-box"
@@ -251,12 +254,15 @@
             <div class="icon-grid">
               <i class="devicon-html5-plain colored" alt="HTML5 logo"></i>
               <i class="devicon-css3-plain colored" alt="CSS Logo"></i>
-              <i
-                class="devicon-javascript-plain colored"
-                alt="JavaScript logo"
-              ></i>
+              <i class="devicon-javascript-plain colored"alt="JavaScript logo"></i>
               <i class="devicon-react-original colored" alt="React logo"></i>
             </div>
+             
+              
+            <small style="margin-top: auto; font-size: 1.1rem; color: #ccc; display: flex; align-items: center; gap: 0.4rem;">
+              <i class="bx bx-mouse-alt" style="font-size: 1rem;"></i> Click for more
+            </small>
+            
           </div>
         </div>
 
@@ -276,6 +282,9 @@
               <i class="devicon-java-plain colored"></i>
               <i class="devicon-r-original colored"></i>
             </div>
+            <small style="margin-top: auto; font-size: 1.1rem; color: #ccc; display: flex; align-items: center; gap: 0.4rem;">
+              <i class="bx bx-mouse-alt" style="font-size: 1rem;"></i> Click for more
+            </small>
           </div>
         </div>
 
@@ -295,6 +304,9 @@
               <i class="devicon-bootstrap-plain colored"></i>
               <i class="devicon-tailwindcss-plain colored"></i>
             </div>
+            <small style="margin-top: auto; font-size: 1.1rem; color: #ccc; display: flex; align-items: center; gap: 0.4rem;">
+              <i class="bx bx-mouse-alt" style="font-size: 1rem;"></i> Click for more
+            </small>
           </div>
         </div>
 
@@ -310,11 +322,14 @@
             <h4>Other Tools</h4>
             <div class="icon-grid">
               <i class="devicon-amazonwebservices-plain-wordmark colored"></i>
-              <i class="devicon-aws-plain colored"></i>
               <i class="devicon-linux-plain colored" style="color: yellow"></i>
               <i class="devicon-figma-plain colored" style="color: purple"></i>
               <i class="devicon-github-plain colored" style="color: white"></i>
             </div>
+            <small style="margin-top: auto; font-size: 1.1rem; color: #ccc; display: flex; align-items: center; gap: 0.4rem;">
+              <i class="bx bx-mouse-alt" style="font-size: 1rem;"></i> Click for more
+            </small>
+            
           </div>
         </div>
       </div>
@@ -381,7 +396,7 @@
           </div>
         </div>
 
-        <!-- Add more timeline-item blocks here -->
+       
       </div>
     </section>
 
@@ -404,12 +419,25 @@
 
       <p class="copyright">&copy; 2025 Adam Ahmadzai. All rights reserved.</p>
     </footer>
-
+<!-- Modal for Service Box Icons -->
+<div id="iconModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2 id="modalTitle">Skill Category</h2>
+    <ul id="modalList" style="margin-top: 1rem; font-size: 1.4rem; line-height: 1.8;"></ul>
+  </div>
+</div>
     <script src="script.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
     </script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  
+
+
   </body>
+
+
 </html>
